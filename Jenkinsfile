@@ -23,7 +23,11 @@ pipeline {
       }
 
     }
-
+    stage('test') {
+      steps {
+        sh "testing the file"
+      }
+    }
   }
 
 }
